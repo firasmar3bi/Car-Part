@@ -1,0 +1,265 @@
+.PartImg span {
+    top: 50px;
+    left: 50px;
+    color: black;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+h1 {
+    Font-size: 30px;
+    Font-weight: 700;
+    Line-height: 36px;
+}
+
+.price {
+    Font-size: 30px;
+    Font-weight: 700;
+    Line-height: 30px;
+    color: #233f92;
+}
+
+.price-2 {
+    Font-size: 18px;
+    color: #233f92;
+    Font-weight: 600;
+    Line-height: 18px;
+}
+
+.price-2>span {
+    Font-size: 14.04px;
+    Font-weight: 400;
+    Line-height: 18px;
+    color: #868686
+}
+
+.cart-totals {
+    width: 35%;
+    display: flex;
+    background-color: white;
+    border: 1px solid #9d9d9d;
+    padding: 11px;
+}
+
+.cart-totals>input {
+    color: black;
+    width: 50%;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+}
+
+label {
+    Font-size: 15px;
+    Font-weight: 700;
+    Line-height: 18px;
+}
+
+.showPartAone,
+.showPartAtwo {
+    transition: .5s;
+    padding: 11px 60px;
+    color: black;
+    Font-size: 14px;
+    Font-weight: 600;
+    Line-height: 24px;
+    margin-right: 20px;
+}
+
+.showPartAone {
+    background-color: var(--main-color);
+}
+
+.showPartAone:hover {
+    background-color: black;
+    color: var(--main-color);
+}
+
+.showPartAtwo {
+    border: 1px solid #eee;
+    color: black;
+}
+
+.showPartAtwo:hover {
+    background-color: black;
+    color: var(--main-color);
+    border: none;
+}
+
+.showIcon {
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 22px
+}
+
+.showIcon:hover {
+    color: var(--main-color);
+}
+
+.showInformation p {
+    Font-size: 15px;
+    Font-weight: 600;
+    Line-height: 18px;
+}
+
+.showInformation span {
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 18px;
+    color: #848484;
+    cursor: pointer;
+}
+
+.showInformation span:hover {
+    color: var(--main-color);
+}
+
+.showInformation p a i {
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 22px;
+    transition: .5s;
+}
+
+.showInformation p a:hover i {
+    transform: translateY(-10px);
+}
+
+.price-3 {
+    Font-size: 24px;
+    Font-weight: 400;
+    Line-height: 30px;
+}
+
+.price-4 {
+    Font-size: 36px;
+    Font-weight: 700;
+    Line-height: 40px;
+    color: #233f92;
+}
+
+.frequentlyPart {
+    position: relative;
+}
+
+.frequentlyPart::after {
+    content: '+';
+    position: absolute;
+    top: 30%;
+    right: -25px;
+    Font-size: 36px;
+    Font-weight: 400;
+    Line-height: 40px;
+}
+
+h2 {
+    Font-size: 36px;
+    Font-weight: 700;
+    Line-height: 40px;
+}
+
+ol {
+    list-style: disc !important;
+}
+
+.tab-content {
+    width: 100% !important;
+}
+
+.showTablist {
+    color: #515151;
+    Font-size: 24px;
+    Font-weight: 700;
+    Line-height: 24px;
+    border: none !important;
+    padding-bottom: 20px !important;
+}
+
+.showTablist:hover {
+    color: var(--main-color) !important;
+    border-bottom: 3px solid var(--main-color) !important;
+}
+
+.showTablist.active {
+    color: var(--main-color) !important;
+    border: none !important;
+    border-bottom: 3px solid var(--main-color) !important;
+}
+
+table {
+    background-color: #ebebeb;
+    margin: 0 auto 20px;
+    width: 90%;
+    border: none !important;
+}
+
+table th {
+    width: 10%;
+    padding: 25px 20px 25px 38px;
+    border: 1px solid #cbcbcb;
+    Font-size: 15px;
+    Font-weight: 700;
+    Line-height: 22px;
+}
+
+table td {
+    padding: 0 0 0 10px;
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 22px;
+}
+
+table tr {
+    border: 1px solid #cbcbcb;
+}
+
+h4 {
+    Font-size: 30px;
+    Font-weight: 700;
+    Line-height: 36px;
+}
+
+.showName {
+    Font-size: 18px;
+    Font-weight: 700;
+    Line-height: 22px;
+}
+
+.showDate {
+    Font-size: 12px;
+    Font-weight: 400;
+    Line-height: 16px;
+    color: var(--main-color);
+}
+
+h5 {
+    Font-size: 15px;
+    Font-weight: 700;
+    Line-height: 22px;
+}
+
+.tab-pane .row {
+    width: 90%;
+    height: auto !important;
+    margin: auto;
+}
+
+.showSale .row {
+    height: 80vh;
+    overflow: hidden;
+}
+
+.showSale .row .carPart-card {
+    height: 60vh;
+    overflow: hidden;
+}
+
+.showSale .row .carPart-card:hover {
+    overflow: visible;
+}
+
+nav ol {
+    list-style: none !important;
+}

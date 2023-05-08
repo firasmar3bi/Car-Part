@@ -1,0 +1,67 @@
+h2 {
+    Font-size: 24px;
+    Font-weight: 700;
+    Line-height: 30px;
+}
+
+.contact-p {
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 24px;
+}
+
+.custom-p {
+    Font-size: 18px;
+    Font-weight: 700;
+    Line-height: 24px;
+    color: var(--main-color);
+}
+
+.custom-sub {
+    color: white;
+    background-color: black;
+    transition: .5s;
+    padding: 11px 30px;
+    margin: 25px 0;
+}
+
+.custom-sub:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+iframe {
+    margin: 30px 0;
+    height: 70vh;
+    border-radius: 12px;
+}
+
+h3 {
+    Font-size: 36px;
+    Font-weight: 700;
+    Line-height: 36px;
+}
+
+.address {
+    Font-size: 18px;
+    Font-weight: 700;
+    Line-height: 18px;
+}
+
+.addressLocation {
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 24px;
+}
+
+.addressLocationTwo {
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: #848484;
+}
+
+.active-page {
+    color: white !important;
+}

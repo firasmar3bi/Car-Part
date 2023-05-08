@@ -1,0 +1,92 @@
+/*  */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/*  */
+
+.custom-div {
+    font-family: 'Dancing Script', cursive;
+    Font-size: 30px;
+    Font-weight: 400;
+    Line-height: 48px;
+    background-color: #f3f3f3;
+    margin: 0 15px 70px;
+}
+
+.custom-div p {
+    padding: 50px 170px
+}
+
+.custom-div i {
+    position: absolute;
+    top: 40px;
+    left: 90px;
+    font-size: 60px;
+    color: var(--border-color);
+}
+
+
+/*  */
+
+.titelSpan,
+.teamJop {
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.teamJop {
+    color: rgba(132, 132, 132, 1);
+    margin-bottom: 0 !important;
+}
+
+h1,
+h2 {
+    Font-size: 36px;
+    Font-weight: 700;
+    Line-height: 36px;
+}
+
+.titelP {
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 28.8px;
+}
+
+.teamName {
+    margin: 0%;
+    Font-size: 18px;
+    Font-weight: 700;
+    Line-height: 22px;
+}
+
+.pp {
+    width: 60%;
+    text-align: center;
+    margin-top: 30px !important;
+}
+
+h3 {
+    Font-size: 24px;
+    Font-weight: 700;
+    Line-height: 26px;
+}
+
+.about-img {
+    border-radius: 12px;
+}
+
+.about-card {
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    padding: 20px 15px 15px 40px;
+}
+
+.about-card img {
+    transition: 0.5s;
+}
+
+.about-card img:hover {
+    transform: scale(0.9);
+}

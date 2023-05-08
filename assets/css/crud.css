@@ -1,0 +1,11 @@
+form {
+    max-width: 100%;
+}
+
+.featured-item img {
+    cursor: pointer;
+}
+
+.featured-item .position-relative:hover .overlay {
+    transform: scaleY(0);
+}

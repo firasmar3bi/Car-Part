@@ -1,0 +1,51 @@
+h1 {
+    Font-size: 36px;
+    Font-weight: 700;
+    Line-height: 40px;
+}
+
+.wishname {
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 22.5px;
+}
+
+.price {
+    Font-size: 18px;
+    Font-weight: 600;
+    Line-height: 22.5px;
+    color: #233f92;
+}
+
+.price>span {
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 20px;
+    color: #868686;
+    text-decoration: line-through;
+}
+
+.wishA {
+    background-color: var(--main-color) !important;
+    transition: .5s;
+    Font-size: 14px;
+    Font-weight: 600;
+    Line-height: 24px;
+    padding: 11px 50px;
+}
+
+.wishA:hover {
+    background-color: black !important;
+    color: var(--main-color);
+}
+
+.wishTitel {
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 22.5px;
+    color: #707070
+}
+
+.active-page {
+    color: white !important;
+}

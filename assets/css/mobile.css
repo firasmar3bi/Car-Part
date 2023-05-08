@@ -1,0 +1,280 @@
+/* NAVBAR IN MOBILE  */
+
+@media only screen and (max-width:991px) {
+    .container {
+        max-width: 720px !important;
+        margin: auto !important;
+    }
+}
+
+
+/* @media only screen and (max-width:550px) {
+    body {
+        width: 100%;
+        margin-left: 11px;
+    }
+} */
+
+@media only screen and (max-width:991px) {
+    .nav-mobile-screen {
+        position: absolute;
+        background: white;
+        top: 0;
+        left: 0;
+        Z-INDEX: 99999999;
+        width: 90%;
+        height: 100vh;
+    }
+    .container-fluid .navbar-brand img {
+        width: 80 !important;
+    }
+    .nav-mobile-screen ul li {
+        padding: 20px 0;
+    }
+    .nav-mobile-screen .dropdown-toggle::after {
+        content: none !important;
+    }
+    .nav-mobile-screen .dropdown:hover .custom-nav-dropdown {
+        display: none !important;
+        position: absolute !important;
+    }
+    .nav-mobile-screen .nav-custom-mobile {
+        display: flex !important;
+        background-color: var(--main-color);
+    }
+    .nav-mobile-screen .navbar-nav .dropdown-menu {
+        position: absolute;
+        top: -140px;
+        left: -80px;
+    }
+    .nav-mobile-screen .dropdown-menu.show {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .mob-li {
+        padding-right: 15px !important;
+        background-color: white;
+        padding: 5px 25px !important;
+    }
+    .mob-con {
+        justify-content: left !important;
+    }
+}
+
+
+/* HEADER */
+
+@media only screen and (max-width:991px) {
+    .header-conent img {
+        height: 75vh;
+        width: 200% !important;
+        transform: translate(-200px, 0px);
+    }
+    .header-conent .carousel-caption {
+        bottom: 25% !important;
+    }
+    .carousel-item p {
+        Font-size: 14px;
+        width: 90%;
+    }
+    .carousel-item h2 {
+        Font-size: 40px;
+        Line-height: 40px;
+    }
+}
+
+
+/* exhaustpipes */
+
+@media only screen and (max-width:991px) {
+    .exhaustpipes {
+        background-position-x: 50%;
+    }
+    .exhaustpipes>div {
+        width: 90% !important;
+        padding: 25px 0px 0 25px;
+    }
+}
+
+
+/* STARS SALE */
+
+@media only screen and (max-width:991px) {
+    #sale {
+        margin: 10px;
+    }
+    .titel {
+        border-radius: 22px;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* DEAL SEACTION */
+
+@media only screen and (max-width:991px) {
+    .deals-part .carPart-card {
+        border: none !important;
+        height: 60vh;
+        overflow: visible;
+    }
+    #dealsSwiper:hover {
+        overflow: hidden;
+    }
+}
+
+
+/* CARTOOLS SECTION */
+
+@media only screen and (max-width:991px) {
+    .car-tools h2 {
+        Font-size: 40px;
+        Font-weight: 700;
+        Line-height: 65px;
+    }
+    .car-tools>div {
+        width: 100% !important;
+    }
+}
+
+
+/* START THE  */
+
+@media only screen and (max-width:991px) {
+    .nav-pills {
+        width: 100% !important;
+        height: fit-content;
+    }
+    .nav-pills button {
+        display: inline-block !important;
+        width: fit-content;
+        margin: 5px 5px;
+        padding: 10px 15px !important;
+    }
+    .tab-content {
+        width: 100% !important;
+        /* height: fit-content;
+        margin-bottom: 40px; */
+    }
+    .swiper,
+    .swiper-container {
+        overflow: hidden;
+    }
+}
+
+
+/* poplarImg  */
+
+@media only screen and (max-width:991px) {
+    .poplarImg {
+        width: 90%;
+        margin: auto;
+    }
+    .poplar-img {
+        width: 90%;
+        margin: auto;
+    }
+    .poplar-text {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .newsletter input {
+        width: 90%;
+    }
+    .newsletter button {
+        margin-left: -127px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    #showButtonScroll {
+        display: none !important;
+    }
+}
+
+
+/* SHOP MOBILE */
+
+@media only screen and (max-width:991px) {
+    .pageNav-1 {
+        margin-left: 10px !important;
+    }
+    .pageNav {
+        margin-left: 20% !important;
+    }
+    footer .col-6 {
+        padding-left: 20px !important;
+    }
+}
+
+
+/* MY ACCOUNT MOBILE */
+
+@media only screen and (max-width:991px) {
+    .log-in::after {
+        content: '';
+        top: 103%;
+        right: 0;
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background-color: #eee;
+    }
+    .main-section form>input {
+        transform: translateY(40%);
+        margin-left: 40px;
+        margin-top: 24px;
+    }
+    .form-check-label {
+        margin-top: 25px;
+    }
+}
+
+
+/* Show Part Mobile */
+
+@media only screen and (max-width:991px) {
+    .showSale .row {
+        height: fit-content;
+        overflow: visible;
+    }
+    .showSale .row .carPart-card {
+        height: fit-content;
+        overflow: visible;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    .closeCustom {
+        position: absolute;
+        top: 10%;
+        right: 40px;
+    }
+}
+
+
+/* about css */
+
+@media only screen and (max-width:520px) {
+    .pp {
+        width: 90%;
+        text-align: center;
+        margin-top: 10px !important;
+    }
+    .custom-div p {
+        padding: 30px 40px;
+    }
+    .custom-div i {
+        top: -25px;
+        left: 145px;
+    }
+    .about-img {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+}
