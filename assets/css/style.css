@@ -355,7 +355,7 @@
     /* START Exhaust Pipes */
     
     .exhaustpipes {
-        background-image: url(/assets/imgs/banner-21.jpg);
+        background-image: url(./../imgs/banner-21.jpg);
         height: 50vh;
         width: 100%;
         background-repeat: no-repeat;
@@ -674,7 +674,7 @@
     /* START CAR TOOLS */
     
     .car-tools {
-        background-image: url(/assets/imgs/home5-bg.jpg);
+        background-image: url(./../imgs/home5-bg.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         height: 70vh;
@@ -780,7 +780,7 @@
     }
     
     .poplar-img-1 {
-        background-image: url(/assets/imgs/banner-22.jpg);
+        background-image: url(./../imgs/banner-22.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
@@ -805,7 +805,7 @@
     }
     
     .poplar-img-2 {
-        background-image: url(/assets/imgs/banner-23.jpg);
+        background-image: url(./../imgs/banner-23.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
@@ -948,7 +948,7 @@
     /* START NEWSLETTER SECTION */
     
     .newsletter {
-        background-image: url(/assets/imgs/mailchimp-bg-2.jpg);
+        background-image: url(./../imgs/mailchimp-bg-2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 50vh;

@@ -1,14 +1,18 @@
-let screenWidth = screen.width;
-console.log(screenWidth);
 
-function navSwiper(id, slidePerView, spaceBetween) {
+function navSwiper(id, slidePerView, spaceBetween ,mobileSlider , mobileSpace) {
     var swiper = new Swiper(`#${id}`, {
-        slidesPerView: slidePerView,
+        slidesPerView: mobileSlider,
         allowTouchMove: true,
         allowSlideNext: true,
         allowSlidePrev: true,
         loop: true,
-        spaceBetween: spaceBetween,
+        spaceBetween: mobileSpace,
+        breakpoints: {
+            // when window width is >= 840px
+            840: {
+              slidesPerView: slidePerView,
+              spaceBetween: spaceBetween
+            }},
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
@@ -18,46 +22,20 @@ function navSwiper(id, slidePerView, spaceBetween) {
             clickable: true,
         },
     });
-    // swiper.setTransition(4000, 'linear');
-
     swiper.setTransition(this, 4000);
 }
 
-
-
 // NAVBAR SWIPER
-if (screenWidth <= 840) {
-    navSwiper(`navSwiper`, 3, 18)
-} else {
-    navSwiper(`navSwiper`, 9, 18)
-}
+navSwiper(`navSwiper`, 9, 18 ,3 ,8)
 
 // FEATUD SWIPER 
-if (screenWidth <= 840) {
-    navSwiper(`featurdSwiper`, 2, 5)
-} else {
-    navSwiper(`featurdSwiper`, 5, 5)
-}
+navSwiper(`featurdSwiper`, 5, 5 , 2, 5)
 
 //DEALS SWIPER 
-if (screenWidth <= 840) {
-    navSwiper(`dealsSwiper`, 2, 4)
-} else {
-    navSwiper(`dealsSwiper`, 4, 4)
-}
+navSwiper(`dealsSwiper`, 4, 4, 2, 4)
 
 // populer swiper
-
-if (screenWidth <= 840) {
-    navSwiper(`pillBrake`, 2, 4)
-} else {
-    navSwiper(`pillBrake`, 4, 4)
-}
-
+navSwiper(`pillBrake`, 4, 4, 2, 4)
 
 // NEW PRODUCT
-if (screenWidth <= 840) {
-    navSwiper(`newProduct`, 3, 3)
-} else {
-    navSwiper(`newProduct`, 3, 3)
-}
+navSwiper(`newProduct`, 3, 3, 3, 3)
